@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Hector Muñoz">
+    <meta name="description" content="Portafolio">
+    <meta name="keywords" content="HTML, CSS, React, JavaScript">
+    <meta name="viewport" content="width=divice-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Delta Force | Tienda Táctica</title>
+    <!-- Favicon -->
+    <link rel="icon" href="/images/vehiculo.png" type="image/x-icon">
+    <!-- Boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <!-- Boostrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- Css -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aladin&family=Goldman&family=Mouse+Memoirs&family=Shantell+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light navbar-custom">
+        <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+            <a class="navbar-brand" href="/index.html">
+                <img src="images/person-vcard.svg" width="50" alt="Logo de pagina">
+                <p>Inicio</p>
+            </a>
+            <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#sobre-mi">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="pages/page2.html">Productos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-icon">
+                <a class="carrito-icon" href="#">
+                    <i class="bi bi-cart3"></i>
+                </a>
+                
+            </li>
+            </ul>
+
+        </div>
+        </div>
+    </nav>
+    <!-- Seccion principal -->
+    <section class="hero  align-items-stretch">
+        <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+            <img class="hero-imagen-delta" src="images/del.jpg" alt="foto fernando" width="100">
+            <h1>Hola, Somos Delta Force especialistas en morrales tácticos</h1>
+            <h2>Fabricantes de morrales Tácticos de uso civil y militar</h2>
+        </div>
+        <div class="hero-inferior">
+            <img class="hero-inferior-imagen img-fluid" src="/images/Principal-r.png" alt="Desarrollador, Html, Css, JavaScript">
+        </div>
+    </section>
+    <!-- Seccion Personal -->
+    <section id="sobre-mi" class="sobre-mi  seccion-oscura">
+        <div class="contenedor">
+            <h2 class="seccion-titulo ">Conoce sobre Nosotros</h2>
+            <p class="seccion-texto">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget condimentum nibh, at gravida velit. Nam tempus sed velit eget aliquet. Quisque at risus feugiat, maximus orci id, fringilla urna. Integer sit amet pretium velit. Aliquam egestas dolor non leo efficitur mollis. Curabitur in elementum diam. Donec porttitor congue sem, ultrices eleifend nulla tempus ac. Donec ultrices venenatis purus, id fermentum erat. Aliquam aliquet lacus eu volutpat tempus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum feugiat nec eros eget efficitur. Fusce in nisi vel sapien dignissim maximus in lacinia felis.
+            </p>
+        </div>
+    </section>
+    <!-- Seccion Experiencia -->
+    <section class="experiencia seccion-clara">
+        <div class="container text-center">
+            <div class="row">
+                <!-- Capacidad Pequeña -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-rocket-fill"></i>
+                    <p class="experiencia-titulo">Capacidad Pequeña</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget condimentum nibh, at gravida velit. Nam tempus sed velit eget aliquet.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">18 Lts</span>
+                        <span class="badge text-bg-primary">22 Lts</span>
+                        <span class="badge text-bg-primary">32 Lts</span>
+                    </div>
+                </div>
+                <!-- Capacidad Mediana -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-lightning-charge"></i>
+                    <p class="experiencia-titulo">Capacidad Mediana</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget condimentum nibh, at gravida velit. Nam tempus sed velit eget aliquet.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">35 Lts</span>
+                        <span class="badge text-bg-primary">42 Lts</span>
+                        <span class="badge text-bg-primary">49 Lts</span>
+
+                    </div>
+                </div>
+                <!-- Capacidad Grande -->
+                <div class="columna col-12 col-md-4">
+                    <i class="bi bi-fire"></i>
+                    <p class="experiencia-titulo">Capacidad Grande</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget condimentum nibh, at gravida velit. Nam tempus sed velit eget aliquet.</p>
+                    <div class="badges-contenedor">
+                        <span class="badge text-bg-primary">62 Lts</span>
+                        <span class="badge text-bg-primary">110 Lts</span>
+
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seccion Proyectos -->
+    <section id="proyectos-recientes" class="proyectos-recientes seccion-clara d-flex flex-column">
+        <h2 class="seccion-titulo texto-negro">Nuestros recientes diseños</h2>
+        <h3 class="seccion-descripcion">Estos son los diseños creados recientemente....</h3>
+        <!-- Galeria -->
+        <div class="container text-center proyectos-contenedor">
+            <div class="row">
+                <!-- Diseño 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/PROPAGAND.jpg" alt="diseño 1 ">
+                        <div class="overlay">
+                            <p>Diseño 1</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/4083330598384283/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/commerce/products/5152744261442645/?referral_code=newsfeed_carousel_ad" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diseño 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/MRM1-6.jpeg" alt="diseño 2 ">
+                        <div class="overlay">
+                            <p>Diseño 2</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/5321941724506726/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100063839899284" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diseño 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/MULTIPEZAS.jpg" alt="Diseño 3 ">
+                        <div class="overlay">
+                            <p>Diseño 3</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/3978267682263676/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100063839899284" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diseño 4 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/RAPTOR4.jpg" alt="Diseño 4 ">
+                        <div class="overlay">
+                            <p>Diseño 4</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/4623206777694989/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/commerce/products/4481573831863048/?referral_code=newsfeed_carousel_ad" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diseño 5 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/EJECUTIVA.jpg" alt="Diseño 5 ">
+                        <div class="overlay">
+                            <p>Diseño 5</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/3860953567334622/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/commerce/products/5821461221262391/?referral_code=newsfeed_carousel_ad" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Diseño 6 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="proyecto">
+                        <img src="images/productos/CPP-M2.jpg" alt="Diseño 6 ">
+                        <div class="overlay">
+                            <p>Diseño 6</p>
+                            <div class="iconos-contenedor">
+                                <a href="https://wa.me/p/4109109382529197/573185936956" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-whatsapp"></i>
+                                </a>
+                                <a href="https://www.facebook.com/commerce/products/3679788958794435/?referral_code=newsfeed_carousel_ad" target="_blank" rel="noopener noreferrer">
+                                    <i class="bi bi-facebook"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="https://wa.me/c/573185936956" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver mas diseños
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!-- Seccion Articulos -->
+    <section class="articulos  justify-content-start">
+        <h2 class="seccion-titulo texto-negro">Los mas Vendidos</h2>
+        <div class="card" >
+            <div class="card-header">
+            Estos son los morrales Tácticos mas solicitados
+            </div>
+            <ul class="list-group list-group-flush">
+                <a href="https://wa.me/p/4238946286137540/573185936956" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Morral Táctico Alpha 22</li>
+                </a>
+                <a href="https://wa.me/p/5321941724506726/573185936956" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Maleta de Recuperaciín M-1</li>
+                </a>
+                <a href="https://wa.me/p/3740200762764446/573185936956" target="_blank" rel="noopener noreferrer">
+                    <li class="list-group-item">Morral Táctico Falcon</li>
+                </a>
+            </ul>
+        </div>
+        <a href="https://wa.me/c/573185936956" target="_blank" rel="noopener noreferrer">
+            <button type="button" class="btn btn-info">
+                Ver mas Morrales
+                <i class="bi bi-arrow-right-circle-fill"></i>
+            </button>
+        </a>
+    </section>
+    <!-- Seccion Testimonios -->
+    <section class="testimonios seccion-clara">
+        <h2 class="seccion-titulo">Testimonios</h2>
+        <h3 class="seccion-descripcion">Estos son algunos testimonios de nuestros clientes</h3>
+        <!-- Carrusel -->
+        <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/clientes/cliente 1.png" class="d-block w-100" alt="cliente 1">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 class="testimonio-titulo">Cliente en Barranquilla</h5>
+                <p class="testimonio-texto">Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/clientes/cliente 2.png" class="d-block w-100" alt="cliente 2">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 class="testimonio-titulo">Cliente en Medellin</h5>
+                <p class="testimonio-texto">Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/clientes/cliente 3.png" class="d-block w-100" alt="cliente 3">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 class="testimonio-titulo">Cliente en Cali</h5>
+                <p class="testimonio-texto">Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/clientes/cliente 4.png" class="d-block w-100" alt="cliente 4">
+                <div class="carousel-caption d-none d-md-block">
+                <h5 class="testimonio-titulo">Cliente en Amaga</h5>
+                <p class="testimonio-texto">Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden" >Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+    </section>
+    <!-- Seccion Contactos -->
+    <section id="contacto" class="contacto seccion-oscura">
+        <div class="container">
+            <div class="container text-center rectangulo d-flex justify-content-evenly">
+                <div class="row">
+                    <div class="col-12 col-md-4 seccion-titulo">
+                        ¡Hablemos!
+                    </div>
+                    <div class="col-12 col-md-4 descripcion">
+                        Si tienes una idea para un morral, Contactano haremos que tu idea se vuelva realidad
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <a href="https://api.whatsapp.com/send?phone=3185936956" target="_blank">
+                            <button type="button">
+                                Contacto
+                                <i class="bi bi-whatsapp"></i>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+        <img class="footer-logo" src="images/aeronave.png" alt="logo whatsapp">
+        <p class="footer-texto text-center">
+            Creamos morrales especialmente para tí. <br> Siguenos:
+        </p>
+        <div class="iconos-redes-sociales d-flex  flex-wrap align-items-center justify-content-center">
+            <a href="https://www.instagram.com/delta1308/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=100063839899284" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-facebook"></i>
+            </a>
+            <a href="https://wa.me/c/573185936956" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-whatsapp"></i>
+            </a>
+        </div>
+        <div class="derechos-de-autor">Creado por Fernando Muñoz (2023) &#169;</div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
